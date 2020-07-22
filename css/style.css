@@ -20,6 +20,9 @@ img {
 hr {
     height: 2px;
     background-color: rgb(189, 189, 189);
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 
@@ -93,6 +96,51 @@ hr {
 
 
 /* ----------- MAIN ---------------- */
+#main {
+    margin: 1em;
+}
+.main-top1 {
+    display: flex;
+    width: 40%;
+    margin-left: 250px;
+    border: gray solid 1px;
+    float: left;
+}
+.main-top1 a {
+    padding: 50px;
+    font-size: 0.6em;
+    color: gray;
+}
+.main-top1 ul {
+    list-style: none;
+    display: block;
+}
+.main-top1 li {
+    float: left;
+}
+.main-top2 {
+    display: flex;
+    width: 40%;
+    margin-left: 250px;
+    border: gray solid 1px;
+}
+.main-top2 a {
+    padding: 50px;
+    font-size: 0.6em;
+    color: gray;
+}
+.main-top2 ul {
+    list-style: none;
+    display: block;
+}
+.main-top2 li {
+    float: left;
+}
+
+img {
+    float: right;
+    padding-top: 1em;
+}
 
 
 /* BOTTOM */
