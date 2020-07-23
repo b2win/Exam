@@ -98,29 +98,44 @@ hr {
 /* ----------- MAIN ---------------- */
 #main {
     margin: 1em;
+    height: 400px;
 }
 .main-top1 {
-    display: flex;
+    display: inline-block;
     width: 40%;
+    height: 300px;
     margin-left: 250px;
     border: gray solid 1px;
     float: left;
 }
+.main-top1 h2 {
+    width: 400px;
+    height: 100px;
+    padding: 2em;
+    display: inline;
+    font-size: medium;
+}
 .main-top1 a {
-    padding: 50px;
     font-size: 0.6em;
     color: gray;
+    padding: 1em;
 }
 .main-top1 ul {
     list-style: none;
-    display: block;
+    height: 100px;
 }
 .main-top1 li {
     float: left;
+    padding: 1em;
+}
+.main-top1 img {
+    width: 5%;
+    float: right;
 }
 .main-top2 {
     display: flex;
     width: 40%;
+    height: 300px;
     margin-left: 250px;
     border: gray solid 1px;
 }
