@@ -111,13 +111,13 @@ hr {
 .main-top1 h2 {
     width: 400px;
     height: 100px;
-    padding: 2em;
+    padding: 2em 2em 0 2em;
     display: inline;
 }
 .main-top1 a {
     font-size: 0.8em;
     color: gray;
-    padding: 1em;
+    padding: 1em 1em 0 1em;
 }
 .main-top1 ul {
     list-style: none;
