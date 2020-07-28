@@ -98,7 +98,7 @@ hr {
 /* ----------- MAIN ---------------- */
 #main {
     margin: 1em;
-    height: 400px;
+    height: auto;
 }
 .main-top1 {
     display: inline-block;
@@ -168,27 +168,102 @@ hr {
     height: 70px;
     border-radius: 10px;
 }
-
 .main-top2 {
-    display: flex;
+    display: inline-block;
     width: 40%;
     height: 300px;
-    margin-left: 250px;
+    margin-left: 5px;
     border: gray solid 1px;
+    float: right;
+}
+.main-top2 h2 {
+    width: 400px;
+    height: 100px;
+    padding: 2em 2em 0 2em;
+    display: inline;
 }
 .main-top2 a {
-    padding: 50px;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: gray;
+    padding: 1em 1em 0 1em;
 }
 .main-top2 ul {
     list-style: none;
-    display: block;
+    height: 30px;
+    padding-left: 2em;
 }
 .main-top2 li {
     float: left;
 }
+.main-top2 img {
+    width: 5%;
+    float: right;
+}
 
+
+.main-top3 {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 250px;
+    border: gray solid 1px;
+    float: left;
+}
+.main-top3 h2 {
+    width: 400px;
+    height: 100px;
+    padding: 2em 2em 0 2em;
+    display: inline;
+}
+.main-top3 a {
+    font-size: 0.8em;
+    color: gray;
+    padding: 1em 1em 0 1em;
+}
+.main-top3 ul {
+    list-style: none;
+    height: 30px;
+    padding-left: 2em;
+}
+.main-top3 li {
+    float: left;
+}
+.main-top3 img {
+    width: 5%;
+    float: right;
+}
+
+.main-top4 {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 5px;
+    border: gray solid 1px;
+    float: right;
+}
+.main-top4 h2 {
+    width: 400px;
+    height: 100px;
+    padding: 2em 2em 0 2em;
+    display: inline;
+}
+.main-top4 a {
+    font-size: 0.8em;
+    color: gray;
+    padding: 1em 1em 0 1em;
+}
+.main-top4 ul {
+    list-style: none;
+    height: 30px;
+    padding-left: 2em;
+}
+.main-top4 li {
+    float: left;
+}
+.main-top4 img {
+    width: 5%;
+    float: right;
+}
 img {
     float: right;
     margin: 0.5em 1em 0.5em 1em;
@@ -196,6 +271,9 @@ img {
 
 
 /* BOTTOM */
+#bottom {
+    display: inline-block;
+}
 #bottom ul {
     background-color: rgba(248, 237, 215, 0.747);
     padding: 20px 3em;
@@ -221,8 +299,8 @@ img {
 .ft div {
     padding-left: 50px;
     border: 1px;
-    float: left;
     font-size: 0.8rem;
+    display: inline-block;
 }
 footer p {
     text-align: center;
