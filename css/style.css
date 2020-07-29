@@ -4,6 +4,7 @@
 html {
     font-size: 100%;
     position: relative;
+    min-width: 1200px;
 }
 body {
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
@@ -32,7 +33,7 @@ hr {
 /* logo */
 .logo {
     margin-right: 5%;
-    width: 250px;
+    max-width: 200px;
 }
 
 /* sub-main */
@@ -97,27 +98,27 @@ hr {
 
 /* ----------- MAIN ---------------- */
 #main {
-    margin: 1em;
-    height: auto;
+    margin: 0 240px;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 .main-top1 {
-    display: inline-block;
-    width: 40%;
-    height: 300px;
-    margin-left: 250px;
     border: gray solid 1px;
-    float: left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 35vh;
+    max-width: 500px;
 }
 .main-top1 h2 {
-    width: 400px;
-    height: 100px;
-    padding: 2em 2em 0 2em;
     display: inline;
+    margin: 1em;
 }
 .main-top1 a {
     font-size: 0.8em;
     color: gray;
-    padding: 1em 1em 0 1em;
+    padding-left: 1em;
 }
 .main-top1 ul {
     list-style: none;
@@ -159,33 +160,21 @@ hr {
 .sub {
     display: inline;
 }
-#shortcut {
-    background: rgb(235, 231, 231);
-    text-align: center;
-    margin-left: 6em;
-    display: inline-block;
-    width: 200px;
-    height: 70px;
-    border-radius: 10px;
-}
 .main-top2 {
-    display: inline-block;
-    width: 40%;
-    height: 300px;
-    margin-left: 5px;
     border: gray solid 1px;
-    float: right;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 35vh;
+    max-width: 500px;
 }
 .main-top2 h2 {
-    width: 400px;
-    height: 100px;
-    padding: 2em 2em 0 2em;
+    padding-left: 1em;
     display: inline;
 }
 .main-top2 a {
     font-size: 0.8em;
     color: gray;
-    padding: 1em 1em 0 1em;
+    padding-left: 1em;
 }
 .main-top2 ul {
     list-style: none;
@@ -202,23 +191,20 @@ hr {
 
 
 .main-top3 {
-    display: inline-block;
-    width: 40%;
-    height: 300px;
-    margin-left: 250px;
     border: gray solid 1px;
-    float: left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 35vh;
+    max-width: 500px;
 }
 .main-top3 h2 {
-    width: 400px;
-    height: 100px;
-    padding: 2em 2em 0 2em;
+    padding-left: 1em;
     display: inline;
 }
 .main-top3 a {
     font-size: 0.8em;
     color: gray;
-    padding: 1em 1em 0 1em;
+    padding-left: 1em;
 }
 .main-top3 ul {
     list-style: none;
@@ -234,23 +220,20 @@ hr {
 }
 
 .main-top4 {
-    display: inline-block;
-    width: 40%;
-    height: 300px;
-    margin-left: 5px;
     border: gray solid 1px;
-    float: right;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 35vh;
+    max-width: 500px;
 }
 .main-top4 h2 {
-    width: 400px;
-    height: 100px;
-    padding: 2em 2em 0 2em;
+    padding-left: 1em;
     display: inline;
 }
 .main-top4 a {
     font-size: 0.8em;
     color: gray;
-    padding: 1em 1em 0 1em;
+    padding-left: 1em;
 }
 .main-top4 ul {
     list-style: none;
@@ -269,11 +252,18 @@ img {
     margin: 0.5em 1em 0.5em 1em;
 }
 
+/* input-button */
+#shortcut {
+    background: rgb(235, 231, 231);
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 1em 1.4em;
+}
 
 /* BOTTOM */
-#bottom {
-    display: inline-block;
-}
 #bottom ul {
     background-color: rgba(248, 237, 215, 0.747);
     padding: 20px 3em;
