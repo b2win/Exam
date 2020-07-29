@@ -40,6 +40,7 @@ hr {
 .page-header {
     display: flex;
     margin: 0 1em 0 1em;
+    min-width: 1400px;
 }
 .main-nav li {
     background-color: #5d99c6;
@@ -300,4 +301,15 @@ footer {
     padding: 1em;
     font-size: 0.8rem;
     display: inline-block;
+}
+
+
+
+
+/* ----------- INFO PAGE ---------------- */
+
+#top h1 {
+    background-color: #eeeeee;
+    height: 7vh;
+    padding: 0.2em 0.5em;
 }
