@@ -32,15 +32,15 @@ hr {
 
 /* logo */
 .logo {
-    margin-right: 5%;
+    margin: 1em 2em 1em 2em;
     max-width: 200px;
 }
 
 /* sub-main */
 .page-header {
     display: flex;
-    margin: 0 1em 0 1em;
     min-width: 1400px;
+    background-color: #5d99c6;
 }
 .main-nav li {
     background-color: #5d99c6;
@@ -95,7 +95,6 @@ hr {
 .top-right dd {
     font-size: 13px;
 }
-
 
 /* ----------- MAIN ---------------- */
 #main {
@@ -311,7 +310,7 @@ footer {
 #top h1 {
     background-color: #eeeeee;
     height: 7vh;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.8em;
 }
 .sidebar {
     min-width: 230px;
@@ -339,7 +338,7 @@ footer {
     height: 1200px;
     width: 70%;
     float: right;
-    margin: 3em 10em 0 0;
+    margin: 2em 10em 0 0;
 }
 .box {
     border: solid 1px #eeeeee;
@@ -373,10 +372,15 @@ footer {
     border: solid 1px #eeeeee;
     padding: 0.5em 1em;
 }
+.page-num {
+    margin-left: 300px;
+}
 .page-num a {
     text-decoration: none;
+    color: black;
 }
 .page-numbering {
-    background-color: gray;
-    float: left;
+    background-color: #eeeeee;
+    width: 3em;
+    margin: 1em 0 0 0
 }
