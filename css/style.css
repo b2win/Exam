@@ -317,7 +317,7 @@ footer {
     min-width: 230px;
     padding-left: 1em;
     border: rgb(233, 231, 231) 1px solid;
-    min-height: 1000px;
+    min-height: 1300px;
     display: inline-block;
 }
 .side-list ul {
@@ -336,10 +336,10 @@ footer {
 }
 .mid {
     display: inline-block;
-    height: 1000px;
-    width: 80%;
+    height: 1200px;
+    width: 70%;
     float: right;
-    margin-top: 5em;
+    margin: 3em 10em 0 0;
 }
 .box {
     border: solid 1px #eeeeee;
@@ -352,19 +352,31 @@ footer {
     padding: 1em;
     display: inline-block;
 }
-
-/* 왜 반영이 안되는가? 
-
-.remember-outside h4 {
-    margin-bottom: 2em;
-    height: 100px;
-} 
-*/
 .name {
     margin-bottom: 2em;
     margin-top: 2em;
 }
-
 .remember-inside {
-    padding-left: 3em;
+    list-style: none;
+    padding-left: 1.5em;
+}
+
+/* TABLE */
+.test {
+    display: inline-block;
+    border-top: solid 1px #eeeeee;
+    border-bottom: solid 1px #eeeeee;
+    width: 1000px;
+    text-align: center;
+}
+.test td{
+    border: solid 1px #eeeeee;
+    padding: 0.5em 1em;
+}
+.page-num a {
+    text-decoration: none;
+}
+.page-numbering {
+    background-color: gray;
+    float: left;
 }
