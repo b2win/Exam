@@ -307,18 +307,18 @@ footer {
 
 
 /* ----------- INFO PAGE ---------------- */
-
+/* SIDEBAR */
 #top h1 {
     background-color: #eeeeee;
     height: 7vh;
     padding: 0.2em 0.5em;
 }
 .sidebar {
-    display: flexbox;
-    max-width: 230px;
+    min-width: 230px;
     padding-left: 1em;
     border: rgb(233, 231, 231) 1px solid;
-
+    min-height: 1000px;
+    display: inline-block;
 }
 .side-list ul {
     border-top: rgb(233, 231, 231) 1px solid;
@@ -329,4 +329,42 @@ footer {
     list-style: none;
     font-size: small;
     background-color: white;
+}
+/* CONTETNT-MAIN */
+.content-main {
+    display: inline;
+}
+.mid {
+    display: inline-block;
+    height: 1000px;
+    width: 80%;
+    float: right;
+    margin-top: 5em;
+}
+.box {
+    border: solid 1px #eeeeee;
+    margin: 2em;
+    padding: 2em;
+    width: 660px;
+    display: inline-block;
+}
+.box span {
+    padding: 1em;
+    display: inline-block;
+}
+
+/* 왜 반영이 안되는가? 
+
+.remember-outside h4 {
+    margin-bottom: 2em;
+    height: 100px;
+} 
+*/
+.name {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.remember-inside {
+    padding-left: 3em;
 }
