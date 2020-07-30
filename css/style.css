@@ -313,3 +313,20 @@ footer {
     height: 7vh;
     padding: 0.2em 0.5em;
 }
+.sidebar {
+    display: flexbox;
+    max-width: 230px;
+    padding-left: 1em;
+    border: rgb(233, 231, 231) 1px solid;
+
+}
+.side-list ul {
+    border-top: rgb(233, 231, 231) 1px solid;
+
+}
+.side-list li {
+    padding-left: 1em;
+    list-style: none;
+    font-size: small;
+    background-color: white;
+}
