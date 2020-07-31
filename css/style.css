@@ -384,3 +384,35 @@ footer {
     width: 3em;
     margin: 1em 0 0 0
 }
+
+/* ----------- Register page ---------------- */
+.register-main {
+    display: inline;
+    height: auto;
+}
+
+.step {
+    padding: 1em 0 1em 2em;
+}
+.step span {
+    padding-right: 2em;
+    color: cornflowerblue;
+}
+.step li {
+    list-style: none;
+}
+.sub-page1 {
+    padding: 0.2em 1em;
+    margin-left: 0.5em;
+    background-color: white;
+    border: cornflowerblue solid 1px;
+    border-radius: 3px;
+}
+.sub-page2 {
+    padding: 0.2em 1em;
+    margin-left: 0.2em;
+    background-color: #eeeeee;
+    opacity: 0.7;
+    border: cornflowerblue solid 1px;
+    border-radius: 3px;
+}
